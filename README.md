@@ -1,3 +1,28 @@
+找了三个前端文本比对库, 分别是: CodeMirror, DiffMatchPatch, Mergely 
+CodeMirror 效果不是很好, DiffMatchPatch 是 Google 开发的, 感觉实现后效果同样不好.最后选用了 Mergely.
+
+实际上, Mergely 用到了 CodeMirror, 而 CodeMirror 用到了 DiffMatchPatch.
+
+CodeMirror
+CodeMirror 和 DiffMatchPatch 这里不做过多介绍. 有兴趣可以试试. 
+CodeMirror Github: https://github.com/codemirror/CodeMirror 
+CodeMirror Demo: http://codemirror.net/demo/merge.html
+
+DiffMatchPatch
+DiffMatchPatch Github: https://github.com/google/diff-match-patch 
+DiffMatchPatch Diff Demo: https://neil.fraser.name/software/diff_match_patch/demos/diff.html 
+DiffMatchPatch Match Demo: https://neil.fraser.name/software/diff_match_patch/demos/match.html 
+DiffMatchPatch Patch Demo: https://neil.fraser.name/software/diff_match_patch/demos/patch.html
+
+Mergely
+官网地址: http://www.mergely.com/ 
+Github: https://github.com/wickedest/Mergely 
+Demo 1: https://jsfiddle.net/bilgehansolo/142r02ny/ 
+Demo 2: https://codepen.io/Sphinxxxx/pen/grVvjG
+--------------------- 
+原文：https://blog.csdn.net/u012731379/article/details/79849724 
+
+
 # Mergely
 
 http://mergely.com
